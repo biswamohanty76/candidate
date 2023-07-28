@@ -30,7 +30,7 @@ public class CandidateController {
     public List<CandidateDto> getAll(){
 
         List<CandidateDto> candidates = candidateService.getAll();
-        return candidates;
+        return new ArrayList<>();
     }
 
     @PostMapping("/candidate")
