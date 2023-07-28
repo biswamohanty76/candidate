@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'cccandidate'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E3213DDF26241AAA28762D91DAED1EF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F10B91B16A447F384FB3896AFFB6664 }}
           package: '*.jar'
