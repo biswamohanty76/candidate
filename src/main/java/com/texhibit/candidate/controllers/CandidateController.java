@@ -28,9 +28,16 @@ public class CandidateController {
     @GetMapping(value="/candidates")
     @CrossOrigin
     public List<CandidateDto> getAll(){
-
-        List<CandidateDto> candidates = candidateService.getAll();
-        return new ArrayList<>();
+       CandidateDto cand = new CandidateDto();
+        cand.setId("1");
+        cand.setDob("28-06-1976");
+        cand.setName("Biswa");
+        cand.setPhone("9886897520");
+        cand.setEmail("rinku@bbm.com");
+        cand.setGender("Male");
+        List<CandidateDto> candidates = new ArrayList<>();
+        candidates.add(cand);//candidateService.getAll();
+        return candidates;
     }
 
     @PostMapping("/candidate")
