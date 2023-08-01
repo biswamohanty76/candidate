@@ -3,6 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
+      host: cccandidate-server.mongo.cosmos.azure.com
+      port: 10255
       database: texhibit
