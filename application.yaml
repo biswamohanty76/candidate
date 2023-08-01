@@ -3,6 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      host: cccandidate-server.mongo.cosmos.azure.com
-      port: 10255
+      host: https://cccandidate-server-eastus.documents.azure.com:443
+      port: 27017
       database: texhibit
