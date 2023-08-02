@@ -3,6 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      uri: https://cccandidate-server-eastus.documents.azure.com:443/  # MongoDB connection string from Azure
-      database: texhibit  # Database name
+      uri: https://cccandidate-server-eastus.documents.azure.com:443/
+      database: texhibit
    
