@@ -3,7 +3,7 @@ server:
 spring:
   data:
     mongodb:
-      host: mongodb://cccandidate-server:APMtEUffS19GpEBARjEEDlPlCqgiW81bb4HICxEpq6ddK2KWprs3rnlEK5rGBd2oVslY8CJ9vFgvACDbWURMIQ==@cccandidate-server.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@cccandidate-server@
+      host: https://cccandidate-server.mongo.cosmos.azure.com:443/
       port: 27017
       database: texhibit
     logger:
