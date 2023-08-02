@@ -6,15 +6,4 @@ spring:
       host: https://cccandidate-server.mongo.cosmos.azure.com:443/
       port: 27017
       database: texhibit
-    logger:
-    name: com.texhibit
-    level: info
-    additivity: false
-    AppenderRef:
-      - ref: MongoAppender
-
-Root:
-  level: info
-  AppenderRef:
-    - ref: ConsoleAppender
-    - ref: RollingFileAppender
+   
