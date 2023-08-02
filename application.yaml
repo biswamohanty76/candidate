@@ -3,7 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      host: https://cccandidate-server.mongo.cosmos.azure.com:443/
-      port: 27017
-      database: texhibit
+      uri: ${MONGODB_CONNECTION_STRING}  # MongoDB connection string from Azure
+      database: ${MONGODB_DATABASE_NAME}  # Database name
    
