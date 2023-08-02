@@ -3,6 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      uri: https://cccandidate-server-eastus.documents.azure.com:443/
+      uri: https://cccandidate-server.documents.azure.com:443
       database: texhibit
    
