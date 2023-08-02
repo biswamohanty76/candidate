@@ -3,6 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      uri: https://cccandidate-server.documents.azure.com:443
+      uri: mongodb:///subscriptions/87b2b09b-8d6e-4cb9-a165-4f5034d93ddd/resourceGroups/rg-culturecubs/providers/Microsoft.Network/privateEndpoints/cccandidateDbEndpoint
       database: texhibit
    
