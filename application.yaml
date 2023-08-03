@@ -3,6 +3,6 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://cccandidate-server:APMtEUffS19GpEBARjEEDlPlCqgiW81bb4HICxEpq6ddK2KWprs3rnlEK5rGBd2oVslY8CJ9vFgvACDbWURMIQ==@cccandidate-server.mongo.cosmos.azure.com:10255/texhibit?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@cccandidate-server@
+      uri: mongodb://culturecubs-eastus.mongo.cosmos.azure.com:10255
       database: texhibit
    
