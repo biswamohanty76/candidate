@@ -11,6 +11,7 @@ import java.io.IOException;
 
 @Component
 public class Parser {
+    // test
     public static String parse(String path) throws IOException {
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
